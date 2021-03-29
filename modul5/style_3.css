@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Verdana';
+    color:maroon;
+}
+ul {
+    overflow:auto;
+    background-color: mediumturquoise;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: square;
+    width: 600px;
+}
+li {
+    float:center;
+}
+li a {
+    color:peru;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    text-decoration: seagreen;
+}
+li a:hover{
+    background-color: tomato;
+}
+img {
+    height:300px;
+    width: 300px;
+}
