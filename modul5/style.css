@@ -1,0 +1,26 @@
+body {
+    background-color: cadetblue;
+}
+h1 {
+    color: darkgoldenrod;
+}
+p {
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kotak{
+    padding:30px;
+    width:fit-content;
+    color:brown;
+    margin:15px;
+    background:violet;
+}
+
+#persegi{
+    padding:50px;
+    width: fit-content;
+    color:slateblue;
+    margin:20px;
+    background: chocolate;
+}
