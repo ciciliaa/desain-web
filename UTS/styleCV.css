@@ -1,0 +1,111 @@
+#wrap{
+    width: 770px;
+    height: 850px;
+    background-color:lightgray;
+    float:center;
+}
+
+#header{
+    background-color:dimgray ;
+    border-bottom-right-radius: 50px;
+    width: 500px;
+    height: 140px;
+    margin: auto;
+    float:right;
+}
+
+#judul{
+    font-size: 43px;
+    text-align: center;
+    padding: 10px 40px 0 0;
+}
+
+#judul a{
+    color:lightcoral;
+    text-decoration: none;
+}
+
+#kiri{
+    border-top-left-radius: 50px;
+    background-color:lightcoral;
+    width: 250px;
+    height: 830px;
+    margin: 0 0 20px;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+
+#kiri h2{
+    margin: 0px 0 0px 0;
+    padding: 5px 12px;
+    color: black;
+    font-size: 20px;
+    background: gray;
+}
+
+#konten{
+    background-color:gray;
+    width: 440px;
+    height: auto;
+    margin: 20px 20px 0;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    box-shadow:0 0 10px rgba(0, 0, 0, .25);
+}
+
+.posttitle{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.post{
+    margin: 0 20px 0 20px;
+    text-align: justify;
+    color: white;
+}
+
+img{
+    width: 80%;
+}
+
+a:link, a:visited{
+    color:white;
+    padding: 14px 25px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: grey;
+}
+
+#instagram a{
+    background-image: url(ig.png);
+    background-size:95%;
+    float:left;
+    margin: 5px 5px 5px 5px;
+    width: 30px;
+    height: 43px;
+}
+
+#facebook a{
+    background-image: url(fb.png);
+    background-size: 95%;
+    float:left;
+    margin: 5px 5px 5px 5px;
+    width: 30px;
+    height: 43px;
+}
+
+#twitter a{
+    background-image: url(tw.png);
+    background-size: 95%;
+    float:left;
+    margin: 5px 5px 5px 5px;
+    width: 30px;
+    height: 46px;
+}
