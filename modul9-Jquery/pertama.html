@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Mencoba JQUERY</title>
+        <script src="jquery-3.6.0.min.js">//alamat untuk mengakses jquery</script>
+        <script type="text/javascript">//untuk memberitahu browser bahwa 
+                                       //di dalam browser akan ditampilkan javascript
+            $(document).ready(function(){
+                alert(jQuery('img').attr("alt"));
+                //$=digunakan untuk memanggil jquery
+                //dapat juga menggunakan jquery itu sendiri
+                //contoh=alert(jquery("img").attr("alt"));
+            });
+        </script>
+    </head>
+    <body>
+        Uji coba pertama menggunakan jquery.
+        <img src="../modul6/logo.jpg" height="50px" width="50px" alt="Uji coba">
+    </body>
+</html>
