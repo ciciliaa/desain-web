@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Mencoba Slide Toggle</title>
+
+        <script src="../../../JQuery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript"></script>
+
+        <style>
+            p {
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Toggle</button>
+        <p>
+            <img src="../modul5/foto.jpg">
+        </p>
+        <script>
+            $("button").click(function(){
+                $('p').slideToggle('slow');
+            });
+        </script>
+    </body>
+</html>
