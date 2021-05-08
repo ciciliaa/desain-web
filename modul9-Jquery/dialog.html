@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Mencoba JQUERY UI Dialog</title>
+
+        <script type="text/javascript" src="../../../JQuery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="../../../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../../jquery-ui-1.12.1.custom/jquery-ui.css">
+        <script type="text/javascript">
+                    $(function(){
+                        $("#dialogku").dialog({
+                            show: 'blind',
+                            hide: 'explode'
+                        });
+
+                        $("idbuka").click(function(){
+                            return false;
+                        });
+                    });
+        </script>
+    </head>
+    <body>
+        <div id="dialogku" title="Peringatan">
+            <p>Merokok itu awalnya bergaya, lama - lama berbahaya, akhirnya enggak bernyawa.</p>
+        </div>
+        <button id="idbuka"> Klik Disini</button>
+    </body>
+</html>
