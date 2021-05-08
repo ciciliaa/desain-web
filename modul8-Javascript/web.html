@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Formulir Pendaftaran</title>
+	<link rel="stylesheet" type="text/css" href="webStyle.css">
+</head>
+<body>
+	<center><h2>Formulir Pendaftaran UKM <br> Universitas Sebelas Maret</h2></center>
+	<div class="login">
+		<form action="#" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" />
+			</div>
+            <div>
+				<label>Tempat Tanggal Lahir:</label>
+				<input type="text" name="tempat" id="tempat" />
+			</div>
+            <div>
+				<label>Fakultas:</label>
+				<input type="text" name="fakultas" id="fakultas" />
+			</div>
+            <div>
+				<label>Jurusan:</label>
+				<input type="text" name="jurusan" id="jurusan" />
+			</div>
+            <div>
+				<label>Semester:</label>
+				<input type="text" name="semester" id="semester" />
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<div>
+				<label>Alamat:</label>
+				<textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+			</div>
+            <div>
+				<label>Motivasi ingin mengikuti UKM:</label>
+				<textarea cols="40" rows="7" name="motivasi" id="motivasi"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Daftar" class="tombol">
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	function validasi() {
+		var nama = document.getElementById("nama").value;
+        var tempat = document.getElementById("tempat").value;
+		var jurusan = document.getElementById("jurusan").value;
+        var semester = document.getElementById("semester").value;
+        var email = document.getElementById("email").value;
+		var alamat = document.getElementById("alamat").value;
+        var motivasi = document.getElementById("motivasi").value;
+		if (nama != "" && tempat !="" && jurusan !="" && semester !="" && email!="" && alamat !="" && motivasi !="") {
+			return true;
+		}else{
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+</script>
+</html>
