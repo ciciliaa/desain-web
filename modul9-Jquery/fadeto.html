@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Mencoba Fade To</title>
+
+        <script src="../../../JQuery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript"></script>
+    </head>
+    <body>
+        <div style="display: none;"><img src="../modul5/foto.jpg" width="350px" height="350px"></div>
+        <input value="Fade To" type="submit">
+
+        <script>
+            $(":submit").click(function(){
+                $("div").fadeTo('slow', .33); //0.33 presentasi kecerahan
+            });
+        </script>
+    </body>
+</html>
